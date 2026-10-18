@@ -1,0 +1,183 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "RN Training Backend API",
+    "version": "1.1.0",
+    "description": "Mock backend for React Native training — places, categories, recently viewed, editors-pick, onboarding, and profile."
+  },
+  "servers": [
+    { "url": "http://localhost:3000" }
+  ],
+  "paths": {
+    "/places": {
+      "get": {
+        "summary": "List or search places",
+        "parameters": [
+          { "name": "q", "in": "query", "schema": { "type": "string" }, "description": "Search keyword (title, location, description)" },
+          { "name": "category", "in": "query", "schema": { "type": "string" }, "description": "Filter by category id" },
+          { "name": "page", "in": "query", "schema": { "type": "integer", "default": 1 }, "description": "Page number" },
+          { "name": "limit", "in": "query", "schema": { "type": "integer", "default": 10 }, "description": "Items per page" }
+        ],
+        "responses": {
+          "200": {
+            "description": "Paginated list of places",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "total": { "type": "integer" },
+                    "page": { "type": "integer" },
+                    "limit": { "type": "integer" },
+                    "data": { "type": "array", "items": { "$ref": "#/components/schemas/Place" } }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/places/{id}": {
+      "get": {
+        "summary": "Get place by id",
+        "parameters": [
+          { "name": "id", "in": "path", "required": true, "schema": { "type": "string" } }
+        ],
+        "responses": {
+          "200": { "description": "Place object", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Place" } } } },
+          "404": { "description": "Not found" }
+        }
+      }
+    },
+    "/categories": {
+      "get": {
+        "summary": "List categories",
+        "responses": {
+          "200": {
+            "description": "Category list",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": { "type": "string" },
+                      "label": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/recently-viewed": {
+      "get": {
+        "summary": "Last two recently viewed",
+        "responses": {
+          "200": {
+            "description": "Array of recently viewed items",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": { "type": "string" },
+                      "name": { "type": "string" },
+                      "viewedAt": { "type": "string", "format": "date-time" },
+                      "place": { "$ref": "#/components/schemas/Place" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/profile": {
+      "get": {
+        "summary": "Get profile (name + imageUrl)",
+        "responses": {
+          "200": {
+            "description": "Profile object",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": { "type": "string" },
+                    "imageUrl": { "type": ["string", "null"], "description": "Full URL to profile image or null if not set" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/editors-pick": {
+      "get": {
+        "summary": "Editor's pick - top rated (default single)",
+        "parameters": [
+          { "name": "limit", "in": "query", "schema": { "type": "integer", "default": 1 }, "description": "Return multiple if >1" }
+        ],
+        "responses": {
+          "200": {
+            "description": "Place or array of places",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [ { "$ref": "#/components/schemas/Place" }, { "type": "array", "items": { "$ref": "#/components/schemas/Place" } } ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/onboarding": {
+      "get": {
+        "summary": "Onboarding random place(s)",
+        "parameters": [
+          { "name": "limit", "in": "query", "schema": { "type": "integer", "default": 1 }, "description": "Number of random places" }
+        ],
+        "responses": {
+          "200": {
+            "description": "Random place or array",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [ { "$ref": "#/components/schemas/Place" }, { "type": "array", "items": { "$ref": "#/components/schemas/Place" } } ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Place": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "location": { "type": "string" },
+          "short": { "type": "string" },
+          "category": { "type": "string" },
+          "image": { "type": "string", "description": "original image path or URL" },
+          "imageUrl": { "type": "string", "description": "resolved full URL to image" },
+          "description": { "type": "string" },
+          "rating": { "type": "number", "format": "float" }
+        }
+      }
+    }
+  }
+}

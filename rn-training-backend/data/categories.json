@@ -1,0 +1,12 @@
+[  
+  { "id": "beach", "label": "Beach" },
+  { "id": "nature", "label": "Nature" },
+  { "id": "cultural", "label": "Cultural" },
+  { "id": "historic", "label": "Historic" },
+  { "id": "city", "label": "City" },
+  { "id": "wildlife", "label": "Wildlife" },
+  { "id": "mountain", "label": "Mountain" },
+  { "id": "island", "label": "Island" },
+  { "id": "lake", "label": "Lake" },
+  { "id": "waterfall", "label": "Waterfall" }
+]

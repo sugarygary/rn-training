@@ -1,0 +1,416 @@
+[
+  {
+    "id": "1",
+    "title": "Kelingking Beach",
+    "location": "Nusa Penida",
+    "category": "beach",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/af/e7/da/caption.jpg?w=1200&h=1200&s=1",
+    "description": "A dramatic cliff with a narrow sandy bay — one of Bali's most-photographed views.",
+    "rating": 4.8
+  },
+  {
+    "id": "2",
+    "title": "Tegallalang Rice Terraces",
+    "location": "Ubud",
+    "category": "nature",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/d8/31/72/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Famous terraced rice fields with panoramic viewpoints near Ubud.",
+    "rating": 4.7
+  },
+  {
+    "id": "3",
+    "title": "Uluwatu Temple",
+    "location": "Bali",
+    "category": "cultural",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/c0/c6/11/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Ancient sea temple perched on towering cliffs, famous for sunsets and kecak dance.",
+    "rating": 4.6
+  },
+  {
+    "id": "4",
+    "title": "Tanah Lot",
+    "location": "Bali",
+    "category": "cultural",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/b8/8e/05/caption.jpg?w=1200&h=1200&s=1",
+    "description": "One of Bali's most iconic sea temples, accessible at low tide.",
+    "rating": 4.5
+  },
+  {
+    "id": "5",
+    "title": "Mount Bromo",
+    "location": "East Java",
+    "category": "mountain",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/33/d7/e0/59/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Stunning sunrise views over the crater and surrounding 'sea of sand'.",
+    "rating": 4.9
+  },
+  {
+    "id": "6",
+    "title": "Ijen Crater",
+    "location": "East Java",
+    "category": "mountain",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/1f/fb/f0/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Famous for its turquoise crater lake and rare blue fire phenomenon at night.",
+    "rating": 4.6
+  },
+  {
+    "id": "7",
+    "title": "Mount Rinjani",
+    "location": "Lombok",
+    "category": "mountain",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/81/ac/03/photo0jpg.jpg?w=1200&h=1200&s=1",
+    "description": "Challenging multi-day trek to the crater rim and Segara Anak lake.",
+    "rating": 4.7
+  },
+  {
+    "id": "8",
+    "title": "Gili Trawangan",
+    "location": "Lombok",
+    "category": "island",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/ce/bb/82/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Popular small island known for beaches, snorkeling and a relaxed nightlife.",
+    "rating": 4.4
+  },
+  {
+    "id": "9",
+    "title": "Gili Air",
+    "location": "Lombok",
+    "category": "island",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/33/2c/7c/e3/snorkeling-trip-with.jpg?w=1200&h=1200&s=1",
+    "description": "Smaller and quieter than Gili Trawangan, great for snorkeling and relaxation.",
+    "rating": 4.3
+  },
+  {
+    "id": "10",
+    "title": "Komodo Island",
+    "location": "East Nusa Tenggara",
+    "category": "wildlife",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/f2/32/f3/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Part of Komodo National Park — famous for Komodo dragons and marine biodiversity.",
+    "rating": 4.8
+  },
+  {
+    "id": "11",
+    "title": "Padar Island",
+    "location": "East Nusa Tenggara",
+    "category": "island",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/67/27/d3/caption.jpg?w=1100&h=1100&s=1",
+    "description": "Distinctive viewpoints with dramatic, crescent-shaped bays and turquoise water.",
+    "rating": 4.5
+  },
+  {
+    "id": "12",
+    "title": "Raja Ampat",
+    "location": "West Papua",
+    "category": "island",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/6e/cf/ed/photo9jpg.jpg?w=1200&h=1200&s=1",
+    "description": "Stunning coral reefs, limestone karsts and remote island scenery.",
+    "rating": 4.9
+  },
+  {
+    "id": "13",
+    "title": "Lake Toba",
+    "location": "North Sumatra",
+    "category": "lake",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/d3/47/36/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Massive crater lake with Samosir Island at its center — cultural Batak heartland.",
+    "rating": 4.6
+  },
+  {
+    "id": "14",
+    "title": "Bukit Lawang",
+    "location": "North Sumatra",
+    "category": "wildlife",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/f3/56/da/bat-cave.jpg?w=1200&h=1200&s=1",
+    "description": "Jungle treks to see wild orangutans in their natural habitat along the Bohorok River.",
+    "rating": 4.4
+  },
+  {
+    "id": "15",
+    "title": "Tanjung Puting",
+    "location": "Kalimantan",
+    "category": "wildlife",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/00/76/17/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Famous national park for orangutan conservation and boat-based expeditions.",
+    "rating": 4.5
+  },
+  {
+    "id": "16",
+    "title": "Bunaken Marine Park",
+    "location": "North Sulawesi",
+    "category": "nature",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/09/72/65/photo2jpg.jpg?w=1200&h=1200&s=1",
+    "description": "Excellent snorkeling and diving with abundant marine life and coral gardens.",
+    "rating": 4.7
+  },
+  {
+    "id": "17",
+    "title": "Wakatobi",
+    "location": "Southeast Sulawesi",
+    "category": "island",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/55/ce/bd/pelabuhan-tomia-wakatobi.jpg?w=1200&h=1200&s=1",
+    "description": "A remote marine national park with pristine reefs and clear waters.",
+    "rating": 4.8
+  },
+  {
+    "id": "18",
+    "title": "Tana Toraja (Rantepao)",
+    "location": "South Sulawesi",
+    "category": "cultural",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/33/b7/0d/4f/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Distinctive architecture, cliff burial sites and traditional ceremonies.",
+    "rating": 4.6
+  },
+  {
+    "id": "19",
+    "title": "Borobudur",
+    "location": "Central Java",
+    "category": "historic",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/d3/3b/69/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Ancient 9th-century monument with tiered platforms and stupas — sunrise tours popular.",
+    "rating": 4.9
+  },
+  {
+    "id": "20",
+    "title": "Prambanan",
+    "location": "Central Java",
+    "category": "historic",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/0e/30/77/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Large 9th-century Hindu temple complex with towering spires.",
+    "rating": 4.8
+  },
+  {
+    "id": "21",
+    "title": "Dieng Plateau",
+    "location": "Central Java",
+    "category": "nature",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/70/1d/b7/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Mystical highland with crater lakes, temples and colorful sulfur lakes.",
+    "rating": 4.5
+  },
+  {
+    "id": "22",
+    "title": "Kawah Putih (Ciwidey)",
+    "location": "West Java",
+    "category": "nature",
+    "image": "https://zjglidcehtsqqqhbdxyp.supabase.co/storage/v1/object/public/atourin/images/destination/bandung/kawah-putih-profile1695119130.jpeg?x-image-process=image/resize,p_100,limit_1/imageslim",
+    "description": "Otherworldly turquoise-green crater lake surrounded by white crater walls.",
+    "rating": 4.6
+  },
+  {
+    "id": "23",
+    "title": "Ujung Kulon",
+    "location": "West Java",
+    "category": "wildlife",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/6e/e7/9a/the-javan-rhino.jpg?w=1200&h=1200&s=1",
+    "description": "Protected peninsula with beaches, jungle and rare wildlife species.",
+    "rating": 4.3
+  },
+  {
+    "id": "24",
+    "title": "Sawarna Beach",
+    "location": "Banten",
+    "category": "beach",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/e5/30/d2/the-island-of-java-has.jpg?w=1200&h=1200&s=1",
+    "description": "Less-crowded coast with caves, cliffs and clear water, great for surfers.",
+    "rating": 4.4
+  },
+  {
+    "id": "25",
+    "title": "Pangandaran",
+    "location": "West Java",
+    "category": "beach",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/c4/24/b1/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Popular coastal town with beaches, caves and nearby green belt national park.",
+    "rating": 4.5
+  },
+  {
+    "id": "26",
+    "title": "Belitung Islands",
+    "location": "Bangka Belitung",
+    "category": "island",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/7e/84/d7/lengkuas-beach.jpg?w=1200&h=1200&s=1",
+    "description": "Known for unique granite rock formations, white sand and turquoise seas.",
+    "rating": 4.7
+  },
+  {
+    "id": "27",
+    "title": "Derawan Islands",
+    "location": "East Kalimantan",
+    "category": "island",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/f4/e1/a9/derawan-archipelago.jpg?w=1200&h=1200&s=1",
+    "description": "Great for marine life encounters, including turtle watching and snorkelling.",
+    "rating": 4.6
+  },
+  {
+    "id": "28",
+    "title": "Karimunjawa",
+    "location": "Central Java",
+    "category": "island",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/b0/01/67/sunrise-view-village.jpg?w=1200&h=1200&s=1",
+    "description": "Remote islands with white sand beaches and clear, shallow waters.",
+    "rating": 4.5
+  },
+  {
+    "id": "29",
+    "title": "Mandalika",
+    "location": "Lombok",
+    "category": "beach",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/c5/e3/2b/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Developing coastal area with surf breaks and scenic bays.",
+    "rating": 4.2
+  },
+  {
+    "id": "30",
+    "title": "Selong Belanak",
+    "location": "Lombok",
+    "category": "beach",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/41/5d/b5/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Long gentle beach popular with surfing beginners and families.",
+    "rating": 4.3
+  },
+  {
+    "id": "31",
+    "title": "Nusa Lembongan",
+    "location": "Bali",
+    "category": "island",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/68/d1/c7/12-night-stay-at-the.jpg?w=1200&h=1200&s=1",
+    "description": "Calmer alternative to mainland Bali with mangroves and snorkeling spots.",
+    "rating": 4.4
+  },
+  {
+    "id": "32",
+    "title": "Pasih Uug",
+    "location": "Nusa Penida",
+    "category": "nature",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/33/b3/ff/8b/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Circular cove with a natural bridge and turquoise waters.",
+    "rating": 4.7
+  },
+  {
+    "id": "33",
+    "title": "Wae Rebo Village",
+    "location": "Flores",
+    "category": "cultural",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/b7/10/61/step-into-the-hidden.jpg?w=1200&h=1200&s=1",
+    "description": "Traditional Manggaraian thatched houses set on a remote mountainside.",
+    "rating": 4.6
+  },
+  {
+    "id": "34",
+    "title": "Labuan Bajo",
+    "location": "Flores",
+    "category": "city",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/ec/01/9b/view-from-halfway.jpg?w=1200&h=1200&s=1",
+    "description": "Fishing town and departure point for Komodo National Park tours.",
+    "rating": 4.5
+  },
+  {
+    "id": "35",
+    "title": "Mount Merapi",
+    "location": "Central Java",
+    "category": "mountain",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/03/d6/ee/caption.jpg?w=1200&h=1200&s=1",
+    "description": "One of Indonesia's most active volcanoes with nearby cultural significance.",
+    "rating": 4.4
+  },
+  {
+    "id": "36",
+    "title": "Mount Semeru",
+    "location": "East Java",
+    "category": "mountain",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/1d/51/2c/mount-semeru-volcano.jpg?w=1200&h=1200&s=1",
+    "description": "Challenging treks to the summit and crater lake in a dramatic landscape.",
+    "rating": 4.8
+  },
+  {
+    "id": "37",
+    "title": "Baluran National Park",
+    "location": "East Java",
+    "category": "wildlife",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/33/04/ee/14/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Open plains often called 'Little Africa' of Java with roaming deer and buffalo.",
+    "rating": 4.5
+  },
+  {
+    "id": "38",
+    "title": "Bintan Island",
+    "location": "Riau Islands",
+    "category": "island",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/83/04/0d/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Accessible from Singapore with resorts, mangroves and sandy shores.",
+    "rating": 4.4
+  },
+  {
+    "id": "39",
+    "title": "Tanjung Lesung",
+    "location": "Banten",
+    "category": "beach",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/c7/02/de/the-dock.jpg?w=1200&h=1200&s=1",
+    "description": "Emerging coastal destination with beaches and marine activities.",
+    "rating": 4.2
+  },
+  {
+    "id": "40",
+    "title": "Sibayak & Sinabung area",
+    "location": "North Sumatra",
+    "category": "mountain",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/a1/6a/8c/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Region with volcanic peaks, crater lakes and alpine scenery.",
+    "rating": 4.3
+  },
+  {
+    "id": "41",
+    "title": "Lake Maninjau",
+    "location": "West Sumatra",
+    "category": "lake",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c5/63/23/waterfront-zalino.jpg?w=1200&h=1200&s=1",
+    "description": "Scenic lake surrounded by steep hills famous for its sunset viewpoints.",
+    "rating": 4.5
+  },
+  {
+    "id": "42",
+    "title": "Lake Singkarak",
+    "location": "West Sumatra",
+    "category": "lake",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/1f/7b/cc/39519212a92e7445c5ec049113da09.jpg?w=1200&h=1200&s=1",
+    "description": "Long lake popular for cycling events and traditional boat festivals.",
+    "rating": 4.4
+  },
+  {
+    "id": "43",
+    "title": "Sekumpul Waterfall",
+    "location": "Bali",
+    "category": "waterfall",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/c6/82/4a/sekumpul-waterfalls.jpg?w=1200&h=1200&s=1",
+    "description": "One of Bali's most beautiful waterfalls set in lush jungle with multiple cascades.",
+    "rating": 4.8
+  },
+  {
+    "id": "44",
+    "title": "Tegenungan Waterfall",
+    "location": "Bali",
+    "category": "waterfall",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/02/ae/f7/tegenungan-waterfall.jpg?w=1200&h=1200&s=1",
+    "description": "Popular waterfall with easy access and viewing platforms.",
+    "rating": 4.5
+  },
+  {
+    "id": "45",
+    "title": "Jatiluwih Rice Terraces",
+    "location": "Bali",
+    "category": "nature",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/d8/32/a3/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Expansive terraced rice fields designated as UNESCO cultural landscape.",
+    "rating": 4.9
+  },
+  {
+    "id": "46",
+    "title": "Weekuri Lake",
+    "location": "East Nusa Tenggara",
+    "category": "island",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/99/b2/44/caption.jpg?w=1200&h=1200&s=1",
+    "description": "Remote island with unique culture, cliffs and natural saltwater lagoons.",
+    "rating": 4.6
+  }
+]
